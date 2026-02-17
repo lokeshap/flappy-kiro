@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Kiro</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #70c5ce;
+            font-family: Arial, sans-serif;
+        }
+        #gameContainer {
+            text-align: center;
+        }
+        canvas {
+            border: 2px solid #333;
+            background: #70c5ce;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer" data-testid="game-container">
+        <canvas id="gameCanvas" width="400" height="600" data-testid="game-canvas"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
